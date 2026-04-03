@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Clone repo'){
             steps{
-                git branch: 'main', url: git branch: 'main', url: 'https://github.com/lathav26/flask-devops-app.git'
+                git branch: 'main', url: 'https://github.com/lathav26/flask-devops-app.git'
             }
         }
         stage('Build image'){
